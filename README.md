@@ -8,13 +8,13 @@ Open `index.html` in a browser, or serve the repository root with any static fil
 
 ## Publish
 
-- **GitHub Pages:** publish the **repository root** as a Pages site. The root page redirects to `portfolio/`, and the CV download link continues to resolve to `main.pdf`.
+- **GitHub Pages:** publish this repository root as a Pages site. The portfolio and its downloadable CV are self-contained.
 - **Vercel / Netlify:** deploy the repository root as a static site.
 
 Before publishing:
 1. Replace the portfolio URL in the application form with the deployed HTTPS address.
 2. Update `og:url` and `<link rel="canonical">` in `index.html` (currently placeholder `https://mingquanjp.github.io/portfolio/`) to match the real deployed URL.
-3. Confirm `main.pdf` exists at the expected relative path from wherever this folder is deployed — the CV link is `../main.pdf`.
+3. Confirm `main.pdf` is committed in this repository. The CV link is `./main.pdf`.
 
 ## Files
 
