@@ -18,7 +18,7 @@
       property="og:description"
       content="Information Technology student at HUST building practical, human-centered AI and full-stack products."
     />
-    <meta property="og:image" content="og-image.png" />
+    <meta property="og:image" content="https://mingquanjp.github.io/portfolio/og-image.png" />
     <meta property="og:url" content="https://mingquanjp.github.io/portfolio/" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Nguyen Minh Quan — Portfolio" />
@@ -26,7 +26,7 @@
       name="twitter:description"
       content="Information Technology student at HUST building practical, human-centered AI and full-stack products."
     />
-    <meta name="twitter:image" content="og-image.png" />
+    <meta name="twitter:image" content="https://mingquanjp.github.io/portfolio/og-image.png" />
     <link rel="canonical" href="https://mingquanjp.github.io/portfolio/" />
 
     <link
@@ -64,6 +64,7 @@
   </head>
   <body>
     <a class="skip-link" href="#top">Skip to main content</a>
+    <div class="scroll-progress" aria-hidden="true"><span></span></div>
     <header class="site-header">
       <a class="wordmark" href="#top" aria-label="Back to top">MQ<span>.</span></a>
       <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="mobile-nav" aria-label="Open menu">
@@ -108,7 +109,7 @@
       <section id="about" class="section-shell about-section">
         <div class="section-intro">
           <p class="eyebrow">00 / ABOUT</p>
-          <h2>Nguyen Minh Quan — a student builder who cares about the work behind the output.</h2>
+          <h2>I turn complex input into useful, reviewable systems.</h2>
         </div>
         <div class="about-grid">
           <div class="about-facts">
@@ -120,16 +121,19 @@
           </div>
           <div class="about-copy">
             <p>
-              I build practical systems at the intersection of applied AI and full-stack development. Currently, I am
-              contributing to a JR West internship project that curates railway-domain terminology data for a future
-              LLM fine-tuning workflow.
+              I’m Nguyen Minh Quan, an Information Technology student at HUST. I build practical systems where
+              applied AI meets real work — from railway document workflows to role-based web products.
             </p>
             <p>
-              I am especially interested in human-in-the-loop AI: using automation to reduce repetitive work while
-              keeping people responsible for important decisions. Outside technical work, I have led student
-              activities as Vice President of Hedspi Nichibu Club and enjoy creating spaces where peers learn by
-              building together.
+              I care about human-in-the-loop AI: automation should reduce repetitive work, while people remain
+              responsible for important decisions. I also enjoy sharing what I learn, shaped by my experience leading
+              student activities as Vice President of Hedspi Nichibu Club.
             </p>
+            <ul class="principles" aria-label="Working principles">
+              <li><span>01</span><strong>Build with context</strong><p>Start with the people, domain, and decision behind a problem.</p></li>
+              <li><span>02</span><strong>Verify with people</strong><p>Treat AI output as a candidate for review, not a final answer.</p></li>
+              <li><span>03</span><strong>Share the learning</strong><p>Make technical work more approachable through practical collaboration.</p></li>
+            </ul>
           </div>
         </div>
       </section>
@@ -178,6 +182,10 @@
         <div class="project-grid">
           <article class="project-card project-card-dark">
             <p class="project-number">01</p>
+            <div class="project-visual pet-visual" aria-label="Conceptual diagram of pet care workflows">
+              <span class="visual-label">CARE WORKFLOW</span>
+              <div class="pet-window"><i></i><i></i><i></i><b>Appointments</b><em>Medical records</em><small>Care team</small></div>
+            </div>
             <h3>Pet Center</h3>
             <p class="project-type">Pet care management platform</p>
             <p>
@@ -190,6 +198,10 @@
           </article>
           <article class="project-card project-card-light">
             <p class="project-number">02</p>
+            <div class="project-visual tabelink-visual" aria-label="Conceptual diagram of restaurant discovery">
+              <span class="visual-label">DISCOVER / HANOI</span>
+              <div class="map-grid"><i></i><i></i><i></i><b>TABLE<br />LINK</b><em>日本語</em></div>
+            </div>
             <h3>TABELINK</h3>
             <p class="project-type">Restaurant discovery for Japanese residents in Hanoi</p>
             <p>
@@ -202,6 +214,10 @@
           </article>
           <article class="project-card project-card-lime">
             <p class="project-number">03</p>
+            <div class="project-visual vietcom-visual" aria-label="Conceptual diagram of communities and events">
+              <span class="visual-label">COMMUNITY SIGNALS</span>
+              <div class="network"><i></i><i></i><i></i><i></i><b>events</b><em>local<br />info</em></div>
+            </div>
             <h3>VietCom</h3>
             <p class="project-type">Community discovery platform</p>
             <p>
@@ -214,6 +230,7 @@
           </article>
           <article class="project-card project-card-archive">
             <p class="project-number">04 / PROJECT ARCHIVE</p>
+            <div class="project-visual archive-visual" aria-hidden="true"><span>+</span><span>+</span><span>+</span><span>+</span></div>
             <h3>More things I’ve built.</h3>
             <p>Additional repositories and ongoing explorations.</p>
             <div class="archive-links">
